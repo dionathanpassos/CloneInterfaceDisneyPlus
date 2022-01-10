@@ -1,0 +1,182 @@
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    body {
+        background: url(/assets/banner-750-1125) no-repeat top center;    
+        background-size: cover;
+    }
+    .hero {
+        min-height: 70vh;
+        padding: 40vw 5vw 10vw;
+        justify-content: center;
+    }   
+
+    .text-conteiner h2 {
+        font-size: 28px;
+    }
+
+    /*ection {
+        padding: 10vw 5vw;
+    }*/
+
+    .bg .text-conteiner {
+        position: static;
+        display: flex;
+        flex-direction: column;      
+    }
+
+    .bg .rei {
+        display: none;
+    }
+
+    .device h2 {
+        font-size: 28px;     
+        
+    }
+    
+    .device h3 {
+        font-size: 24px;
+        
+    }
+    
+    .device p {
+        font-size: 16px;
+           
+    }
+
+    body {
+        background: url(/assets/banner-750-1125) no-repeat top center;    
+        background-size: 100% auto;
+    }
+
+   
+
+ 
+    
+}
+
+@media only screen and (max-width: 768px){
+   
+    .hero {
+        min-height: 70vh;
+        padding: 40vw 5vw 20vw;
+    }
+    .content {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    picture img {
+        width: 180px;
+    }
+    .content h3 {
+        font-size: 21px;
+        margin: 0 0 22px;    
+    }
+
+    .btn-combo {
+        height: 50px;
+        margin: 0 0 1px;
+        padding: 11px 24px;
+    }
+
+    .text-price {
+        font-size: 15px;
+        
+    }
+
+    .text-link{
+        font-size: 15px;
+        
+    }
+
+    .section1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .section1 picture {
+        max-width: 100%;
+        margin: 0 0 20px;
+    }
+
+    .text-conteiner {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+        
+    
+    
+    
+}
+
+@media only screen and  (max-width: 768px) {
+    .text-conteiner h2 {
+        font-size: 26px;
+    }
+    .bg .rei {
+        display: none;
+    }
+    .bg .text-conteiner {
+        position: static;
+        display: flex;
+        flex-direction: column;      
+    }
+    .combo {
+        max-width: 100%;
+    }
+
+    .order1 {
+        order: 2;
+    }
+    
+    .order2 {
+        order: 1;
+    }
+
+    .device h2 {
+        font-size: 26px;     
+        text-align: center;
+    }
+    
+    .device h3 {
+        font-size: 22px;
+        
+    }
+    
+    .device p {
+        font-size: 15px;
+           
+    }
+
+    .btn-entrar {    
+        height: 40px;
+        font-size: 13px;
+        padding: 9px 8px;
+        margin: 5px;    
+    }
+
+    .btn-assinar {    
+        height: 40px;
+        font-size: 13px;
+        padding: 9px 8px;
+        margin: 5px;    
+    }
+
+    
+    body {
+        background: url(/assets/banner-750-1125) no-repeat top center;    
+        background-size: 100% auto;
+    }
+
+
+
+   
+  
+
+}
+

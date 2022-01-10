@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsivo.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+ crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        $(window).on('scroll', function(){
+            if($(window).scrollTop()){
+                $('header').addClass('scroll-header');
+                $(".logo").css("display", "flex");
+                $(".btn-assinar").css("display", "flex");
+                
+            }
+            else {
+                $('header').removeClass('scroll-header');
+                $(".logo").css("display", "none");
+                $(".btn-assinar").css("display", "none");
+            }
+        })
+
+    </script>
+    <title>DisneyPlus</title>
+</head>
+<body>
+    <header>
+        <a class="logo" href="/">
+            <img src="/assets/logo-original.svg" alt="">
+        </a>
+            
+        <nav class="nav">
+                <a class="btn primary btn-assinar" href=""><span>Assine Agora</span></a>
+                <a class="btn secondary btn-entrar" href=""><span>Entrar</span></a>
+            </nav>
+    </header>
+
+  <main>
+
+    <section class="hero">
+        <div class="content">
+            <h3 class="text-md">Com o Combo+, você pode aproveitar o Disney+ e o Star+ por um preço único</h3>
+        
+
+            <picture>
+                <img src="/assets/logo.png" alt="">
+            </picture>
+
+            <div class="grid-itens">        
+                <a class="btn btn-combo primary" href=""><span>Assine por R$ 45,90*</span></a>
+                <p class="footnote text-sm">*O preço pode variar caso a assinatura seja feita através de outras plataformas.</p>
+                <a class="text-link" href=""><span>Assinar somente o Disney+</span></a>
+                <p class="text-price">R$ 27,90/mês* ou R$ 279,90/ano à vista*</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="section1">
+        <picture>
+            <img src="/assets/section1-lg.png" alt="">
+        </picture>
+
+        <div class="text-conteiner">
+            <h2 class="text-lg">Assista do seu jeito</h2>
+            <p></p>
+            <p class="text-ssm">Aproveite a tela grande da TV ou assista no tablet, laptop, celular e outros aparelhos. Nossa seleção de títulos em 4K não para de crescer. Além disso, para a felicidade de todos, é possível assistir em até 4 telas ao mesmo tempo.</p>
+
+        </div>
+    </section>
+
+    <section class="section1">
+        <picture class="order2">
+            <img src="/assets/section2-lg.jpg" alt="">
+        </picture>
+
+        <div class="text-conteiner order1">
+            
+            <p class="text-price">Só o Combo+ oferece Disney+ e Star+ juntos para você ter acesso ilimitado a filmes, séries de sucesso e esportes ao vivo com a ESPN, para ver onde e como quiser.</p>
+            <br>
+            <a class="btn primary combo" href="">Assinar combo+</a>
+
+        </div>
+    </section>
+
+    <section class="section1 bg">
+
+        <picture>
+            <img src="/assets/rei-leao-712-530.png" alt="">
+        </picture>
+        <img class="rei" src="/assets/rei-leao-1943-1133.png" alt="">
+
+        <div class="text-conteiner">
+            <h2 class="text-md">Baixe filmes e séries</h2>
+            <p></p>
+            <p class="text-price">Baixe e assista quando e onde quiser. Assim, seus favoritos estão sempre com você, até mesmo sem internet.</p>
+
+
+        </div>
+    </section>
+
+    <section class="device">
+        <h2>Disponível nos seus dispositivos favoritos</h2>
+        <ul>
+            <li>
+                <img src="/assets/tv.png" alt=""></img>
+                <h3>TV</h3>
+                <p>Amazon Fire TV<br>Android TV<br>Apple TV<br>Chromecast<br>TVs LG<br>Roku<br>Samsung</p>
+            </li>
+            <li>
+                <img src="/assets/pc.png" alt=""></img>
+                <h3>Computador</h3>
+                <p>Chrome OS<br>MacOs<br>PC Windows</p>
+            </li>
+            <li>
+                <img src="/assets/phone.png" alt=""></img>
+                <h3>Celulares e tablets</h3>
+                <p>Tablets Amazon Fire<br>Celulares de Tablets Androids<br>iPhone e iPad</p>
+            </li>
+            <li>
+                <img src="/assets/game.png" alt=""></img>
+                <h3>Videogames</h3>
+                <p>PS4<br>PS5<br>Xbox One<br>Xbox Series X<br>TVs LG<br>Xbox Series S</p>
+            </li>
+        </ul>
+    </section>
+
+    <footer>
+        <div>
+            <img class="logo" src="/assets/logo-original.svg" alt="">
+            <div class="fine">
+                <select name="lengague" id="">
+                    <option value="">English</option>
+                    <option value="">Português</option>
+                </select>
+                <a href="">Contrato de Assinatura</a>
+                <a href="">Política de privacidade</a>
+                <a href="">Proteção de Dados no Brasil</a>
+                <a href="">Anúncios personalizados</a>
+                <a href="">Dispositivos compatíveis</a>
+                <a href="">Ajuda</a>
+                <a href="">Sobre o Disney+</a>
+            </div>
+            <p class="footenote">
+                ® 2021 Disney, Disney+ e The Walt Disney Company. Todos os direitos reservados. Serviço de assinatura paga. Conteúdo sujeito a disponibilidade.
+                <br><br>
+                Disney+ é um serviço pago, baseado em assinatura e sujeito a termos e condições. O serviço Disney+ é comercializado por The Walt Disney Company (Brasil) Ltda., World Trade Center, Av. Das Nações Unidas, 12.551, 12.555, 12.559, Piso 10, São Paulo/SP – CEP 04578-903, Brasil e CNPJ/M 73.042.962/0004-20
+                <br><br>
+            </p>
+        </div>
+    </footer>
+  </main>
+
+  
+
+    
+
+    
+
+  
+</body>
+</html>
